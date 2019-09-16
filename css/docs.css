@@ -5,6 +5,9 @@ html {
 * {
 	box-sizing: border-box;
 	-webkit-print-color-adjust: exact;
+	padding-left: 2px;
+	padding-right: 2px;
+}
 }
 
 html,
