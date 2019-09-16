@@ -17,6 +17,8 @@
     <meta data-n-head="true" name="TheNewest Design" content="Collection of free design tools and resources for makers, developers and designers">
     <link data-n-head="true" rel="icon" type="image/x-icon" href="/favicon.ico"><link data-n-head="true" rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto+Mono:400,700&display=swap">
     <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.5/css/bulma.min.css">
+    <script defer src="https://use.fontawesome.com/releases/v5.3.1/js/all.js"></script>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     </script>
@@ -31,7 +33,7 @@
   </header>
  <section class="contact">
   <div class="container col-md-6 offset-md-3"> 
-        <form classs="contact-form">
+        <form classs="contact-form" name="contact" method="POST" data-netlify="true">
           <div class="form-group">
             <label for="email" class="form-label">メールアドレス</label>
             <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
@@ -51,6 +53,21 @@
             <label for="name" class="form-label">リソースサイト名</label>
             <input type="password" class="form-control" id="exampleInputPassword1" placeholder="https://www.figma.com">
           </div>
+          <br>
+          <div class="file">
+            <label for="exampleFormControlFile1" class="form-label">
+              <input class="file-input" type="file" name="resume">
+              <span class="file-cta">
+                <span class="file-icon">
+                  <i class="fas fa-upload"></i>
+                </span>
+                <span class="file-label">
+                  アイコンをアップロード
+                </span>
+              </span>
+            </label>
+          </div>
+          <br>
           <div class="form-group form-check">
             <input type="checkbox" class="form-check-input" id="exampleCheck1">
             <label class="form-check-label" for="exampleCheck1">プライバシーポリシーに同意する</label>
@@ -59,6 +76,7 @@
         </form>
   </div>
 </section>
+<br><br>
   <footer class="footer" data-v-7c356dcc style="width: 100%;">
       <div class="copyright" data-v-7c356dcc>
         <div class="container" data-v-7c356dcc>
