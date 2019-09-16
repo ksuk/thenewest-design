@@ -23,7 +23,7 @@ hr {
 }
 
 pre {
-  font-family: monospace, monospace;
+  font-family: 'Kosugi Maru', sans-serif;
   font-size: 1em
 }
 
@@ -43,7 +43,7 @@ b, strong {
 }
 
 code, kbd, samp {
-  font-family: monospace, monospace;
+  font-family: 'Kosugi Maru', sans-serif;
   font-size: 1em
 }
 
@@ -292,7 +292,7 @@ body {
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: Roboto Mono, monospace
+  font-family: 'Kosugi Maru', sans-serif;
 }
 
 .container {
@@ -328,7 +328,7 @@ h1, h2, h3, h4, h5, h6 {
 .button {
   display: flex;
   background: linear-gradient(65deg, #5a51fe, #8751fe);
-  font-family: Roboto Mono, monospace;
+  font-family: 'Kosugi Maru', sans-serif;
   color: #fff;
   display: inline-flex;
   font-size: 12px;
@@ -451,7 +451,7 @@ a {
   left: 0;
   box-sizing: border-box;
   z-index: 100;
-  font-family: Roboto Mono, monospace;
+  font-family: 'Kosugi Maru', sans-serif;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   align-items: center
@@ -509,7 +509,7 @@ a {
   border-radius: 3px;
   text-decoration: none;
   transition: background-color .4s ease;
-  font-family: Roboto Mono, monospace;
+  font-family: 'Kosugi Maru', sans-serif;
   font-size: 14px;
   font-size: var(--font-xs);
   margin-bottom: 8px
@@ -720,7 +720,6 @@ a {
 }
 
 .copyright[data-v-7c356dcc] {
-  background-color: #f6f8fa;
-  padding: 64px 0;
-  text-align: center
+  padding: 44px 0;
+  text-align: center;
 }

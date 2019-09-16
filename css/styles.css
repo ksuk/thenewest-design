@@ -23,7 +23,7 @@ html {
   }
   
   pre {
-    font-family: monospace, monospace;
+    font-family: 'Kosugi Maru', sans-serif;
     font-size: 1em
   }
   
@@ -43,7 +43,7 @@ html {
   }
   
   code, kbd, samp {
-    font-family: monospace, monospace;
+    font-family: 'Kosugi Maru', sans-serif;
     font-size: 1em
   }
   
@@ -184,7 +184,7 @@ html {
   }
   
   #mc_embed_signup input.email {
-    font-family: Open Sans, Helvetica Neue, Arial, Helvetica, Verdana, sans-serif;
+    font-family: 'Kosugi Maru', sans-serif;
     font-size: 15px;
     border: 1px solid #abb0b2;
     border-radius: 3px;
@@ -292,7 +292,7 @@ html {
   }
   
   h1, h2, h3, h4, h5, h6 {
-    font-family: Roboto Mono, monospace
+    font-family: 'Kosugi Maru', sans-serif;
   }
   
   .container {
@@ -550,7 +550,7 @@ html {
     font-size: 16px;
     font-size: var(--font-sm);
     margin-bottom: 0;
-    font-family: Roboto Mono, monospace
+    font-family: 'Kosugi Maru', sans-serif;
   }
   
   [data-v-7c356dcc]:root {
@@ -573,6 +573,9 @@ html {
     }
   }
   
+  .footer {
+    position: absolute;
+  }
   .footer[data-v-7c356dcc] {
     padding-top: 64px
   }
@@ -588,11 +591,14 @@ html {
   }
   
   .copyright[data-v-7c356dcc] {
-    background-color: #f6f8fa;
-    padding: 64px 0;
-    text-align: center
+    padding: 44px 0;
+    text-align: center;
   }
 
   .form-label {
     font-weight: bold;
   }
+.footer-links {
+  text-align: center;
+  color: #5a51fe;
+}
