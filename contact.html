@@ -17,15 +17,13 @@
     <meta data-n-head="true" data-hid="og:description" name="og:description" property="og:description" content="Collection of free design tools and resources for makers, developers and designers">
     <meta data-n-head="true" name="TheNewest Design" content="Collection of free design tools and resources for makers, developers and designers">
     <link data-n-head="true" rel="icon" type="image/x-icon" href="img/newest_design2.png">
-    <link href="https://fonts.googleapis.com/css?family=Kosugi+Maru&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/styles.css">
+    <link href="https://fonts.googleapis.com/css?family=Kosugi+Maru&display=swap" rel="stylesheet">
     <link data-n-head="true" rel="apple-touch-icon" href="img/newest_design.png">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.5/css/bulma.min.css">
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.5/css/bulma.min.css">
     <script defer src="https://use.fontawesome.com/releases/v5.3.1/js/all.js"></script>
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
   </head>
-  <body clas="contact-boddy" stylesheet="width: 100%;">
+  <body>
     <header class="header container" data-v-671e9a44 data-v-7f1758be>
     <a href="/" class="nuxt-link-exact-active nuxt-link-active" data-v-671e9a44>
     <img src="img/newest_design2.png" alt="Logo" class="logo" data-v-671e9a44></a>
@@ -35,52 +33,92 @@
   <h2 class="subtitle" data-v-671e9a44><!---->Collection of free design tools and resources for makers, developers and designers
   </h2>
   </header>
- <section class="contact">
-  <div class="container col-md-6 offset-md-3"> 
-        <form classs="contact-form" name="contact" method="POST" data-netlify="true">
-          <div class="form-group">
-            <label for="email" class="form-label">メールアドレス</label>
-            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email" required>
-            <small id="emailHelp" class="form-text text-muted">メールアドレスを他人と共有することはありません</small>
-          </div>
-          <div class="form-group">
-            <label for="name" class="form-label">コントリビューターネーム</label>
-            <input type="name" class="form-control" id="exampleInputPassword1" placeholder="Enter Name" required>
-            <small id="emailHelp" class="form-text text-muted">ソースに名前が表示されます</small>
-          </div>
-          <div class="form-group">
-            <label for="name" class="form-label">コントリビューターウェブサイト</label>
-            <input type="url" class="form-control" id="exampleInputPassword1" placeholder="https://keisukekuribara.com">
-            <small id="emailHelp" class="form-text text-muted">あなたのウェブサイトをご記入ください</small>
-          </div>
-          <div class="form-group">
-            <label for="name" class="form-label">リソースサイト</label>
-            <input type="url" class="form-control" id="exampleInputPassword1" placeholder="https://www.figma.com" required>
-            <small id="emailHelp" class="form-text text-muted">リソースサイトをご記入ください</small>
-          </div>
-          <br>
-          <div class="file">
-            <label class="file-label">
-              <input class="file-input" type="file" name="resume">
-              <span class="file-cta">
-                <span class="file-icon">
-                  <i class="fas fa-upload"></i>
-                </span>
-                <span class="file-label">
-                  アイコンをアップロード
-                </span>
+
+ <section class="contact" style="">
+  <form name="contact" method="POST" data-netlify="true">
+  <div class="container is-mobile is-centered">
+    <div class="column is-three-fifths is-offset-one-fifth">
+      <div class="field">
+      <label class="label">Email</label>
+        <p class="control has-icons-left has-icons-right">
+          <input class="input" type="email" placeholder="Email">
+          <small id="emailHelp" class="form-text text-muted">メールアドレスを他人と共有することはありません</small>
+          <span class="icon is-small is-left">
+            <i class="fas fa-envelope"></i>
+          </span>
+          <span class="icon is-small is-right">
+            <i class="fas fa-check"></i>
+          </span>
+        </p>
+      </div>
+      <div class="field">
+      <label class="label">Name</label>
+        <p class="control has-icons-left">
+          <input class="input" type="name" placeholder="Name">
+          <small id="emailHelp" class="form-text text-muted">ソースに名前が表示されます</small>
+          <span class="icon is-small is-left">
+            <i class="fas fa-user"></i>
+          </span>
+        </p>
+      </div>
+      <div class="field">
+      <label class="label">Your Website</label>
+        <p class="control has-icons-left">
+          <input class="input" type="text" placeholder="URL">
+          <small id="emailHelp" class="form-text text-muted">あなたのウェブサイトをご記入ください</small>
+          <span class="icon is-small is-left">
+            <i class="fab fa-sourcetree"></i>
+          </span>
+        </p>
+      </div>
+          <div class="field">
+      <label class="label">URL</label>
+        <p class="control has-icons-left">
+          <input class="input" type="text" placeholder="URL">
+          <small id="emailHelp" class="form-text text-muted">リソースサイトをご記入ください</small>
+          <span class="icon is-small is-left">
+            <i class="fas fa-blog"></i>
+          </span>
+        </p>
+      </div>
+      <div class="file">
+        <label class="file-label">
+          <input class="file-input" type="file" name="resume">
+            <span class="file-cta">
+              <span class="file-icon">
+                <i class="fas fa-upload"></i>
               </span>
-            </label>
-          </div>
-          <br>
-          <div class="form-group form-check">
-            <input type="checkbox" class="form-check-input" id="exampleCheck1" required>
-            <label class="form-check-label" for="exampleCheck1"><a href="/privacy">プライバシーポリシー</a>に同意する</label>
-          </div>
-          <button type="submit" class="btn btn-primary" required>送信</button>
-        </form>
+            <span class="file-label">
+                  アイコンをアップロード
+            </span>
+            </span>
+        </label>
+      </div>
+      <div class="field">
+        <label class="label">Message</label>
+        <div class="control">
+          <textarea class="textarea" placeholder="Textarea"></textarea>
+          <small id="emailHelp" class="form-text text-muted">概要をご記載ください</small>
+        </div>
+      </div>
+      <div class="field">
+        <div class="control">
+          <label class="checkbox">
+            <input type="checkbox">
+            <a href="#">プライバシーポリシー</a>と<a href="#">利用規約</a>に同意する
+          </label>
+        </div>
+      </div>
+      <div class="field is-grouped">
+        <div class="control">
+          <button class="button is-link">送信</button>
+      </div>
+
+    </div>
   </div>
+  </form>
 </section>
+
 <br><br>
   <footer class="footer" data-v-7c356dcc style="width: 100%;">
 <div class="copyright" data-v-7c356dcc>
