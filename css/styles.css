@@ -573,12 +573,13 @@ html {
     }
   }
   
-  .footer {
-    position: absolute;
-  }
   .footer[data-v-7c356dcc] {
-    padding-top: 64px
+    position: absolute;
+    padding-bottom: 2rem;
+    padding: 64px 0;
+    background-color: #f6f8fa;
   }
+
   
   .updates[data-v-7c356dcc] {
     margin-bottom: 96px
@@ -586,13 +587,12 @@ html {
   
   .contact[data-v-7c356dcc] {
     margin-top: 96px;
-    margin-bottom: 128px;
     text-align: center
   }
   
   .copyright[data-v-7c356dcc] {
-    padding: 44px 0;
     text-align: center;
+    background-color: #f6f8fa;
   }
 
   .form-label {
@@ -600,5 +600,4 @@ html {
   }
 .footer-links {
   text-align: center;
-  color: #5a51fe;
 }
