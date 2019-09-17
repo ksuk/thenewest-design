@@ -704,6 +704,14 @@ a {
     --font-xxs: 12px
   }
 }
+@media screen and (max-width : 480px){
+	html,
+	body {
+	overflow-x: hidden;
+	overflow-y: scroll;
+	-webkit-overflow-scrolling: touch;
+	}
+}
 
 .footer[data-v-7c356dcc] {
   padding-top: 64px

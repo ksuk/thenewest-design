@@ -515,7 +515,14 @@ html {
       --font-xxs: 12px
     }
   }
-  
+  @media screen and (max-width : 480px){
+    html,
+    body {
+    overflow-x: hidden;
+    overflow-y: scroll;
+    -webkit-overflow-scrolling: touch;
+    }
+  }
   .category-item[data-v-341698d0] {
     display: flex;
     background-color: #fff;
