@@ -17,9 +17,9 @@
     <meta data-n-head="true" data-hid="og:description" name="og:description" property="og:description" content="Collection of free design tools and resources for makers, developers and designers">
     <meta data-n-head="true" name="TheNewest Design" content="Collection of free design tools and resources for makers, developers and designers">
     <link data-n-head="true" rel="icon" type="image/x-icon" href="img/newest_design2.png">
-    <link rel="stylesheet" href="css/styles.css">
     <link href="https://fonts.googleapis.com/css?family=Kosugi+Maru|Roboto&display=swap" rel="stylesheet">
     <link data-n-head="true" rel="apple-touch-icon" href="img/newest_design.png">
+    <link rel="stylesheet" href="css/styles.css">
      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.5/css/bulma.min.css">
     <script defer src="https://use.fontawesome.com/releases/v5.3.1/js/all.js"></script>
   </head>
@@ -39,21 +39,16 @@
         <div class="field">
         <label class="label">Email</label>
           <p class="control has-icons-left has-icons-right">
-            <input class="input" type="email" placeholder="Email" required>
-            <small id="emailHelp" class="form-text text-muted">メールアドレスを他人と共有することはありません</small>
+            <input class="input" type="email" placeholder="メールアドレス" required>
             <span class="icon is-small is-left">
               <i class="fas fa-envelope"></i>
-            </span>
-            <span class="icon is-small is-right">
-              <i class="fas fa-check"></i>
             </span>
           </p>
         </div>
         <div class="field">
         <label class="label">Name</label>
           <p class="control has-icons-left">
-            <input class="input" type="name" placeholder="Name" required>
-            <small id="emailHelp" class="form-text text-muted">ソースに名前が表示されます</small>
+            <input class="input" type="name" placeholder="ソースに名前が表示されます" required>
             <span class="icon is-small is-left">
               <i class="fas fa-user"></i>
             </span>
@@ -61,25 +56,17 @@
         </div>
         <div class="field">
         <label class="label">Your Website</label>
-          <p class="control has-icons-left">
-            <input class="input" type="text" placeholder="URL">
-            <small id="emailHelp" class="form-text text-muted">あなたのウェブサイトをご記入ください</small>
-            <span class="icon is-small is-left">
-              <i class="fab fa-sourcetree"></i>
-            </span>
-          </p>
+          <div class="control is-loading">
+            <input class="input" type="text" placeholder="あなたのウェブサイトをご記入ください">
+          </div>  
         </div>
             <div class="field">
         <label class="label">URL</label>
-          <p class="control has-icons-left">
-            <input class="input" type="text" placeholder="URL" required>
-            <small id="emailHelp" class="form-text text-muted">リソースサイトをご記入ください</small>
-            <span class="icon is-small is-left">
-              <i class="fas fa-blog"></i>
-            </span>
-          </p>
+          <div class="control is-loading">
+            <input class="input" type="text" placeholder="リソースサイトをご記入ください" required>
+          </div>
         </div>
-        <div class="file">
+        <div class="file is-primary">
           <label class="file-label">
             <input class="file-input" type="file" name="resume" required>
               <span class="file-cta">
@@ -87,29 +74,29 @@
                   <i class="fas fa-upload"></i>
                 </span>
               <span class="file-label">
-                    アイコンをアップロード
+                    Choose a file...
               </span>
               </span>
           </label>
         </div>
+        <br>
         <div class="field">
           <label class="label">Message</label>
           <div class="control">
-            <textarea class="textarea" placeholder="Textarea" required></textarea>
-            <small id="emailHelp" class="form-text text-muted">概要をご記載ください</small>
+            <textarea class="textarea" placeholder="概要をご記載ください" required></textarea>
           </div>
         </div>
         <div class="field">
           <div class="control">
             <label class="checkbox">
               <input type="checkbox" required>
-              <a href="#">プライバシーポリシー</a>と<a href="#">利用規約</a>に同意する
+              <a href="/privacy">プライバシーポリシー</a>と<a href="/terms">利用規約</a>に同意する
             </label>
           </div>
         </div>
         <div class="field is-grouped">
           <div class="control">
-            <button class="button is-link">送信</button>
+            <button class="button is-primary">Submit</button>
         </div>
 
       </div>
@@ -119,20 +106,16 @@
 
 <br><br>
 <footer class="footer" data-v-7c356dcc>
-  <div class="container" data-v-7c356dcc>
-    </div>
-        <div class="copyright" data-v-7c356dcc>
-            <div class="row">
-                  <a href="/contact" class="footer-links">Contact</a>&nbsp;/&nbsp;<a href="/privacy" class="footer-links">Privacy</a>&nbsp;/&nbsp;<a href="/terms" class="footer-links">&nbsp;Terms</a>
-                <br><br>
-                <div class="container" data-v-7c356dcc>
-                  Made with ❤️ in Japan 🇯🇵 by <a href="https://keisukekuribara.com" target="_blank" data-v-7c356dcc rel="nofollow">Keisuke Kuribara</a>
+      <div class="copyright" data-v-7c356dcc>
+          <div class="row">
+            <a href="/contact" class="footer-links">Contact</a>&nbsp;/&nbsp;<a href="/privacy" class="footer-links">Privacy</a>&nbsp;/&nbsp;<a href="/terms" class="footer-links">&nbsp;Terms</a>
+            <br><br>
+              <div class="container" data-v-7c356dcc>
+                Made with ❤️ in Japan 🇯🇵 by <a href="https://keisukekuribara.com" target="_blank" data-v-7c356dcc rel="nofollow">Keisuke Kuribara</a>
                   <br>
-                  <p>Inspired via <a href="https://www.sandoche.com/" target="_blank" rel="nofollw">Sandoch<a></p>
-                </div>
-            </div>
-        </div>
-    </div>
+                <p>Inspired via <a href="https://www.sandoche.com/" target="_blank" rel="nofollw">Sandoch<a></p>
+              </div>
+          </div>
   </div>    
 </footer>    
  </body>

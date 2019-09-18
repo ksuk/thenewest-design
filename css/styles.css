@@ -210,7 +210,7 @@ html {
   }
   
   .section-title {
-    color: #5a51fe;
+    color: #FF6666;
     font-size: 1.5rem;
     font-weight: 600;
     text-align: center
@@ -234,9 +234,9 @@ html {
     background: #e1e1e5
   }
   
-  .button {
+  .button[data-v-7c356dcc] {
     display: flex;
-    background: linear-gradient(65deg, #5a51fe, #8751fe);
+    background: linear-gradient(90deg, #FAD961 0%, #F76B1C 100%);
     font-family: 'Roboto', sans-serif;
     color: #fff;
     display: inline-flex;
@@ -264,7 +264,8 @@ html {
   }
   
   a {
-    color: #5a51fe
+    color: #FF6666 !important;
+    text-decoration: underline !important;
   }
   
   #mc_embed_signup {
@@ -388,7 +389,7 @@ html {
   
   .title[data-v-671e9a44] {
     font-family: 'Kosugi Maru', sans-serif !important;
-    color: #5a51fe;
+    color: #FF6666;
     font-weight: 900;
     font-size: 28px;
     font-size: var(--font-xl);
