@@ -568,6 +568,7 @@ blockquote {
 .legal-footer {
 	padding-top: 64px
 	background: grey;
+	font-family: 'Roboto', sans-serif;
   }
   .inspired {
 	  text-align: center;
