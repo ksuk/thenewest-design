@@ -25,7 +25,7 @@ html {
   }
   
   pre {
-    font-family: 'Kosugi Maru', sans-serif;
+    font-family: 'Roboto', sans-serif;
     font-size: 1em
   }
   
@@ -45,7 +45,7 @@ html {
   }
   
   code, kbd, samp {
-    font-family: 'Kosugi Maru', sans-serif;
+    font-family: 'Roboto', sans-serif;
     font-size: 1em
   }
   
@@ -332,7 +332,7 @@ html {
   .button {
     display: flex;
     background: linear-gradient(65deg, #5a51fe, #8751fe);
-    font-family: Roboto Mono, monospace;
+    font-family: 'Roboto', sans-serif;
     color: #fff;
     display: inline-flex;
     font-size: 12px;
@@ -551,7 +551,7 @@ html {
     font-size: 16px;
     font-size: var(--font-sm);
     margin-bottom: 0;
-    font-family: 'Kosugi Maru', sans-serif;
+    font-family: 'Roboto', sans-serif;
   }
   
   [data-v-7c356dcc]:root {
