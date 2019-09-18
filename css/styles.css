@@ -256,7 +256,7 @@ html {
     white-space: nowrap;
     box-shadow: 0 8px 24px rgba(32, 43, 54, .12);
     transition: all .15s ease;
-    padding: 25px 30px 25px 30px;
+    padding: 25px 35px 25px 35px;
   }
 
   .button[data-v-7c356dcc]:hover {
