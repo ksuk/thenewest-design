@@ -5,11 +5,11 @@
     "display" : "standalone",
     "start_url" : "https://thenewest.design/",
     "short_name" : "TheNewest Desig",
-    "theme_color" : "#5A51FE",
+    "theme_color" : "#FF6666",
     "description" : "Collection of free design tools and resources for makers, developers and designers",
     "orientation" : "any",
     "background_color" : "transparent",
-    "related_applications" : "",
+    "related_applications" : "", 
     "prefer_related_applications" : "false",
     "generated" : "true",
     "icons" : [
