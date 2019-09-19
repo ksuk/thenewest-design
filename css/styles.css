@@ -493,7 +493,8 @@ html {
   
   .copyright[data-v-7c356dcc] {
     padding: 64px 0;
-    text-align: center
+    text-align: center;
+    font-size: 0.75rem;
   }
 
   .form-label {
