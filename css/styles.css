@@ -292,7 +292,10 @@ html {
   .about {
     padding-bottom: 120px;
   }
-  
+  .keisukekuribara-icon {
+    border-radius: 50%;
+  }
+
   [data-v-7f1758be]:root {
     --font-xl: 28px;
     --font-lg: 24px;
