@@ -288,6 +288,10 @@ html {
   .nuxt-progress-failed {
     background-color: red
   }
+
+  .about {
+    padding-bottom: 120px;
+  }
   
   [data-v-7f1758be]:root {
     --font-xl: 28px;
@@ -500,6 +504,9 @@ html {
   .form-label {
     font-weight: bold;
   }
+
+
+
   /*! bulma.io v0.7.5 | MIT License | github.com/jgthms/bulma */
 
 @-webkit-keyframes spinAround {
