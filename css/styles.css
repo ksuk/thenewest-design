@@ -458,7 +458,7 @@ html {
     font-size: 16px;
     font-size: var(--font-sm);
     margin-bottom: 0;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Kosugi Maru', sans-serif;
   }
   
   [data-v-7c356dcc]:root {
@@ -475,7 +475,7 @@ html {
       --font-xl: 26px;
       --font-lg: 20px;
       --font-md: 18px;
-      --font-sm: 14px;
+      --font-sm: 16px;
       --font-xs: 14px;
       --font-xxs: 12px
     }
