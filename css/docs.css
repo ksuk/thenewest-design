@@ -18,7 +18,7 @@ body {
 }
 @media only screen {
 	body {
-		margin: 2em auto;
+		margin: auto;
 		max-width: 900px;
 		color: rgb(55, 53, 47);
 	}
@@ -70,7 +70,10 @@ h3 {
 	font-size: 1.25rem;
 	margin-top: 1.25rem;
 }
-
+.logo[data-v-671e9a44] {
+	width: 70px;
+	padding-bottom: 20px;
+}
 .source {
 	border: 1px solid #ddd;
 	border-radius: 3px;
