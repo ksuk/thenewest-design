@@ -263,12 +263,6 @@ a {
   color: #FF6666;
 }
 
-#mc_embed_signup {
-  background: #fff;
-  clear: left;
-  font: 14px Helvetica, Arial, sans-serif;
-  width: 100%
-}
 
 .nuxt-progress {
   position: fixed;
@@ -416,7 +410,7 @@ a {
   transition: background-color .4s ease;
   font-family: 'Kosugi Maru', sans-serif;
   font-size: 14px;
-  font-size: var(--font-xs);
+  font-size: var(- -font-xs);
   margin-bottom: 8px
 }
 
@@ -437,8 +431,10 @@ a {
   width: 50px
 }
 
-#mc_embed_signup form[data-v-dea4254a] {
-  padding: 0
+.contributor {
+  font-size: 0.7rem;
+  color: #BBBBBB;
+  text-align: left;
 }
 
 @media (max-width:1300px) {

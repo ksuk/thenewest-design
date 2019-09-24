@@ -498,6 +498,11 @@ html {
     padding-bottom: 64px;
   }
   
+  .contributor {
+    padding-bottom: 64px;
+  }
+
+
   .copyright[data-v-7c356dcc] {
     padding: 64px 0;
     text-align: center;
@@ -5786,7 +5791,8 @@ a.tag:hover {
 
 .card-content {
   background-color: transparent;
-  padding: 1.5rem
+  padding: 1.5rem;
+  margin-bottom: 15px;
 }
 
 .card-footer {

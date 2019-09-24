@@ -44,7 +44,7 @@
     </h1>
     <h2 class="subtitle" data-v-671e9a44>開発者やデザイナーに向けた無料のデザインツールとリソースをコレクション</h2>
   </header>
-  <section class="contact" style="">
+  <section class="contact">
     <form name="contact" method="POST" data-netlify="true">
     <div class="container is-mobile is-centered">
       <div class="column is-three-fifths is-offset-one-fifth">
@@ -55,30 +55,57 @@
             <span class="icon is-small is-left">
               <i class="fas fa-envelope"></i>
             </span>
+            <span class="icon is-small is-right">
+             <i class="fas fa-check"></i>
+            </span>
           </p>
         </div>
         <div class="field">
         <label class="label">Name</label>
-          <p class="control has-icons-left">
+          <p class="control has-icons-left has-icons-right">
             <input class="input" type="name" placeholder="ソースに名前が表示されます" required>
             <span class="icon is-small is-left">
               <i class="fas fa-user"></i>
+            </span>
+            <span class="icon is-small is-right">
+             <i class="fas fa-check"></i>
             </span>
           </p>
         </div>
         <div class="field">
         <label class="label">Your Website</label>
-          <div class="control is-loading">
+          <div class="control has-icons-left">
             <input class="input" type="text" placeholder="あなたのウェブサイトをご記入ください">
+            <span class="icon is-small is-left">
+              <i class="fas fa-signature"></i>
+            </span>
           </div>  
         </div>
             <div class="field">
         <label class="label">URL</label>
-          <div class="control is-loading">
+          <div class="control has-icons-left has-icons-right">
             <input class="input" type="text" placeholder="リソースサイトをご記入ください" required>
+            <span class="icon is-small is-left">
+              <i class="fas fa-cubes"></i>
+            </span>
+            <span class="icon is-small is-right">
+             <i class="fas fa-check"></i>
+            </span>
           </div>
         </div>
-        <div class="file is-link">
+        <div class="field">
+          <label class="label">Bio</label>
+          <div class="control has-icons-right">
+            <textarea class="textarea" placeholder="概要をご記載ください" required></textarea> 
+            <span class="icon is-small is-right">
+             <i class="fas fa-check"></i>
+            </span>
+          </div>
+        </div>
+          <div class="field">
+          <label class="label">Icon</label>
+        </div>
+          <div class="file is-link">
           <label class="file-label">
             <input class="file-input" type="file" name="resume" required>
               <span class="file-cta">
@@ -86,18 +113,12 @@
                   <i class="fas fa-upload"></i>
                 </span>
               <span class="file-label">
-                    Choose a file...
+                    Upload Icon...
               </span>
               </span>
           </label>
         </div>
         <br>
-        <div class="field">
-          <label class="label">Message</label>
-          <div class="control">
-            <textarea class="textarea" placeholder="概要をご記載ください" required></textarea>
-          </div>
-        </div>
         <div class="field">
           <div class="control">
             <label class="checkbox">
@@ -106,6 +127,7 @@
             </label>
           </div>
         </div>
+        <br>
         <div class="field is-grouped">
           <div class="control">
             <button class="button is-link">Submit</button>
@@ -120,7 +142,7 @@
 <footer class="footer" data-v-7c356dcc>
     <div class="copyright" data-v-7c356dcc>
         <div class="container" data-v-7c356dcc>
-         <a href="/about" class="footer-links">About</a>&nbsp;/&nbsp;<a href="/contact" class="footer-links">Contact</a>&nbsp;/&nbsp;<a href="/privacy" class="footer-links">Privacy</a>&nbsp;/&nbsp;<a href="/terms" class="footer-links">&nbsp;Terms</a>
+ <a href="/about" class="footer-links">About</a>&nbsp;/&nbsp;<a href="/contributors" class="footer-links">Contributors</a>&nbsp;/&nbsp;<a href="/contact" class="footer-links">Contact</a>&nbsp;/&nbsp;<a href="/privacy" class="footer-links">Privacy</a>&nbsp;/&nbsp;<a href="/terms" class="footer-links">Terms</a> 
             <br><br>
               <div class="container " data-v-7c356dcc>
                 Made with ❤️ in Japan 🇯🇵 by <a href="https://keisukekuribara.com" target="_blank" data-v-7c356dcc rel="nofollow">Keisuke Kuribara</a>
