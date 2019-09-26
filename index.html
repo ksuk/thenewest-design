@@ -40,7 +40,13 @@
 <script type="application/ld+json">
 {
   "@context":"https://schema.org",
-  "@type":"ItemList",
+  "url": "https://thenewest.design",
+  "potentialAction": {
+    "@type": "SearchAction",
+    "target": "https://thenewest.design/search?q={search_term_string}",
+    "query-input": "required name=search_term_string"
+  }
+  "@type":"WebSite",
   "itemListElement":[
     {
       "@type":"ListItem",
@@ -74,7 +80,7 @@
     },
         {
       "@type":"ListItem",
-      "position"6,
+      "position":6,
       "url":"https://thenewest.design/code-snippets",
       "name": "コードスニペット"
     },
