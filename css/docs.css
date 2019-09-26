@@ -583,3 +583,6 @@ blockquote {
 	  font-size: 0.75rem;
 	  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen-Sans, Ubuntu, Cantarell, Helvetica Neue, sans-serif;
   }
+  .legal-footer {
+	  padding-top: 64px;
+  }
