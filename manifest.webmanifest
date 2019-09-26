@@ -5,11 +5,10 @@
     "display" : "standalone",
     "start_url" : "https://thenewest.design/",
     "short_name" : "Newest Design",
-    "theme_color" : "#FF6666",
-    "description" : "Collection of free design tools and resources for makers, developers and designers",
+    "theme_color" : "#000000",
+    "description" : "開発者やデザイナーに向けた無料のデザインツールとリソースをコレクション",
     "orientation" : "any",
     "background_color" : "transparent",
-    "prefer_related_applications" : "false",
     "generated" : "true",
     "icons" : [
         {
