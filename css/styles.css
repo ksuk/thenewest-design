@@ -514,6 +514,18 @@ html {
     font-weight: bold;
   }
 
+  .get-in-touch {
+    text-align: center;
+    margin: 10px 10px 24px 10px;
+
+  }
+  .get-in-touch p {
+    font-size: 0.9rem;
+  }
+  .get-in-touch-h2 {
+    font-size: 26px;
+    padding: 12px 0 12px 0;
+  }
 
 
   /*! bulma.io v0.7.5 | MIT License | github.com/jgthms/bulma */
@@ -5361,7 +5373,8 @@ a.tag:hover {
   color: #363636;
   display: block;
   font-size: 1rem;
-  font-weight: 700
+  font-weight: 700;
+  text-align: left;
 }
 
 .label:not(:last-child) {
